@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { uniqueId } from "lodash";
 
 type Props = {
   companyImageUrl: string;
@@ -34,12 +33,14 @@ function ExperienceCard({ companyImageUrl, companyName, title, startDate, endDat
         <h4 className="text-3xl font-light">{companyName}</h4>
         <p className="font-bold text-2xl mt-1">{title}</p>
         <div className="flex space-x-2 my-2">
-          {skillLogoPaths.map((skillLogoPath) => {
-            return <img key={uniqueId()} className="h-10 w-10 rounded-full" alt="" src={skillLogoPath} />;
+          {skillLogoPaths.map((skillLogoPath, index) => {
+            return (
+              <img key={index + "skill" + startDate} className="h-10 w-10 rounded-full" alt="" src={skillLogoPath} />
+            );
           })}
         </div>
         <p className="uppercase py-5 text-gray-300">
-          Started work {startDate} - {endDate ? "Ended " + endDate : "Current"}
+          Started work {startDate} - {endDate?.length != 0 ? "Ended " + endDate : "Current"}
         </p>
         <ul className="list-disc space-y-4 ml-5 pr-10 text-md h-48">
           {details.map((d) => (

@@ -38,7 +38,7 @@ const workExperiences = [
     companyName: "D14.ai",
     title: "Full Stack Developer",
     startDate: "Apr 2020",
-    endDate: null,
+    endDate: "",
     details: ["aaa", "bbb", "ccc"],
     skillLogoPaths: [
       paths.REACT_LOGO_PATH,
