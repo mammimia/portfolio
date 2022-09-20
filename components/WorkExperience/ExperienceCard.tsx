@@ -6,8 +6,10 @@ type Props = {};
 function ExperienceCard({}: Props) {
   return (
     <article
-      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929]
-     p-10 hover:opacity-100 opacity-40 cursor-pointer transistion-opacity duration-200 overflow-hidden"
+      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
+      w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929]
+      p-10 hover:opacity-100 opacity-40 cursor-pointer transistion-opacity
+      duration-200 overflow-hidden overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A]/80"
     >
       <motion.img
         initial={{ y: -100, opacity: 0 }}
@@ -40,7 +42,7 @@ function ExperienceCard({}: Props) {
           />
         </div>
         <p className="uppercase py-5 text-gray-300">Started work... - Ended...</p>
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        <ul className="list-disc space-y-4 ml-5 pr-10 text-lg h-96">
           <li>Proin consequat metus at pellentesque faucibus.</li>
           <li>Interdum et malesuada fames ac ante ipsum primis in faucibus.</li>
           <li>Nullam vel massa massa.</li>

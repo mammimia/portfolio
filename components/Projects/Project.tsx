@@ -28,6 +28,13 @@ function Project({ imgUrl, projectName, projectIndex, totalProjectNumber }: Prop
           </span>
         </h4>
 
+        <div className="flex items-center space-x-2 justify-center">
+          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
+          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
+          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
+          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
+        </div>
+
         <p className="text-lg text-center md:text-left">
           Maecenas ut semper arcu, non hendrerit urna. Etiam porttitor aliquet mauris, a aliquet purus tristique ut.
           Cras consectetur velit ipsum, eget facilisis mi vestibulum vitae. Maecenas et condimentum ligula. Morbi
