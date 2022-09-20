@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { REACT_LOGO_PATH } from "../../constants/TechnologyLogoPaths";
 
 type Props = {
   imgUrl: string;
@@ -29,10 +30,10 @@ function Project({ imgUrl, projectName, projectIndex, totalProjectNumber }: Prop
         </h4>
 
         <div className="flex items-center space-x-2 justify-center">
-          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
-          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
-          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
-          <img className="h-10 w-10" src="/assets/images/react-js-logo.png" alt="" />
+          <img className="h-10 w-10" src={REACT_LOGO_PATH} alt="" />
+          <img className="h-10 w-10" src={REACT_LOGO_PATH} alt="" />
+          <img className="h-10 w-10" src={REACT_LOGO_PATH} alt="" />
+          <img className="h-10 w-10" src={REACT_LOGO_PATH} alt="" />
         </div>
 
         <p className="text-lg text-center md:text-left">

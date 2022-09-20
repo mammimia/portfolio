@@ -1,5 +1,6 @@
 import React from "react";
 import Skill from "./Skill";
+import * as paths from "../../constants/TechnologyLogoPaths";
 
 type Props = {};
 
@@ -11,17 +12,18 @@ function Skills({}: Props) {
         Hover over a skill for currenct proficiency
       </h3>
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill logoPath={paths.JAVA_LOGO_PATH} coverage={90} />
+        <Skill logoPath={paths.JS_LOGO_PATH} coverage={90} coverImage />
+        <Skill logoPath={paths.REACT_LOGO_PATH} coverage={95} />
+        <Skill logoPath={paths.SPRING_BOOT_LOGO_PATH} coverage={80} />
+        <Skill logoPath={paths.POSTGRESQL_LOGO_PATH} coverage={80} />
+        <Skill logoPath={paths.MONGODB_LOGO_PATH} coverage={65} />
+        <Skill logoPath={paths.TS_LOGO_PATH} coverage={65} />
+        <Skill logoPath={paths.NEXTJS_LOGO_PATH} coverage={50} coverImage />
+        <Skill logoPath={paths.TAILWIND_LOGO_PATH} coverage={60} />
+        <Skill logoPath={paths.SCSS_LOGO_PATH} coverage={80} coverImage />
+        <Skill logoPath={paths.RABBITMQ_LOGO_PATH} coverage={65} />
+        <Skill logoPath={paths.FIREBASE_LOGO_PATH} coverage={65} />
       </div>
     </div>
   );

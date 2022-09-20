@@ -10,7 +10,7 @@ function Hero({}: Props) {
     words: [
       "Hey, I'm Muhammed Ali AYDIN",
       "<OneOfTheMostAmbitiousMenYouCanKnow />",
-      "Guys-who-is-obsessed-with-Coffee.tsx",
+      "Guy-who-is-obsessed-with-Coffee.tsx",
     ],
     loop: true,
     delaySpeed: 2000,
