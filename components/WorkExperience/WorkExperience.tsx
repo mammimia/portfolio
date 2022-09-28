@@ -25,7 +25,11 @@ const workExperiences = [
     title: "Software Developer",
     startDate: "Jul 2019",
     endDate: "Apr 2020",
-    details: ["aaa", "bbb", "ccc"],
+    details: [
+      "After a successful candidate engineering period, I started working as a full time developer.",
+      "I took part in the transition of existing monolith backend projects to microservice architecture with Spring Boot.",
+      "I also had the chance to work on the migration of existing Java Swing frontend projects to ReactJS application.",
+    ],
     skillLogoPaths: [
       paths.REACT_LOGO_PATH,
       paths.SPRING_BOOT_LOGO_PATH,
@@ -39,7 +43,11 @@ const workExperiences = [
     title: "Full Stack Developer",
     startDate: "Apr 2020",
     endDate: "",
-    details: ["aaa", "bbb", "ccc"],
+    details: [
+      "I worked from scratch to the entire software development lifecycle of an AI-powered smart clinic management system.",
+      "I also had a chance to work on entire software development lifecycle of an generic AI-powered smart clinic management system which is using by 4 clients now.",
+      "At the same time, I developed the reporting infrastructure that enables the creation of health-related and financial reports of these projects with JasperReports.",
+    ],
     skillLogoPaths: [
       paths.REACT_LOGO_PATH,
       paths.SPRING_BOOT_LOGO_PATH,

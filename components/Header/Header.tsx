@@ -21,6 +21,7 @@ function Header({}: Props) {
         <SocialIcon url="https://www.linkedin.com/in/muhammed-ali-aydin/" fgColor="gray" bgColor="transparent" />
         <SocialIcon url="https://github.com/mammimia" fgColor="gray" bgColor="transparent" />
         <SocialIcon url="https://twitter.com/mammimia97" fgColor="gray" bgColor="transparent" />
+        <SocialIcon url="https://medium.com/@mammimia" fgColor="gray" bgColor="transparent" />
         <SocialIcon
           style={{ height: "30px", width: "30px", marginLeft: "10px" }}
           url="https://www.upwork.com/freelancers/~01e07a20de5d5368f0"
