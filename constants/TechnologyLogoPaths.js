@@ -10,3 +10,4 @@ export const POSTGRESQL_LOGO_PATH = "/assets/images/postgresql-logo.png";
 export const MONGODB_LOGO_PATH = "/assets/images/mongodb-logo.png";
 export const RABBITMQ_LOGO_PATH = "/assets/images/rabbitmq-logo.png";
 export const SCSS_LOGO_PATH = "/assets/images/scss-logo.png";
+export const JASPER_LOGO_PATH = "/assets/images/jasper-logo.png";

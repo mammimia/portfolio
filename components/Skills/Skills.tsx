@@ -11,7 +11,7 @@ function Skills({}: Props) {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
         Hover over a skill for currenct proficiency
       </h3>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="absolute top-48 grid lg:grid-cols-4 md:grid-cols-2 gap-5">
         <Skill logoPath={paths.JAVA_LOGO_PATH} coverage={90} />
         <Skill logoPath={paths.JS_LOGO_PATH} coverage={90} coverImage />
         <Skill logoPath={paths.REACT_LOGO_PATH} coverage={95} />
@@ -24,6 +24,7 @@ function Skills({}: Props) {
         <Skill logoPath={paths.SCSS_LOGO_PATH} coverage={80} coverImage />
         <Skill logoPath={paths.RABBITMQ_LOGO_PATH} coverage={65} />
         <Skill logoPath={paths.FIREBASE_LOGO_PATH} coverage={65} />
+        <Skill logoPath={paths.JASPER_LOGO_PATH} coverage={75} />
       </div>
     </div>
   );
