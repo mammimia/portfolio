@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { REACT_LOGO_PATH } from "../../constants/TechnologyLogoPaths";
+import PageTitle from "../Common/PageTitle";
 
 type Props = {
   imgUrl: string;

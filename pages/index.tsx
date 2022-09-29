@@ -13,8 +13,8 @@ import { HomeIcon } from "@heroicons/react/24/solid";
 const Home: NextPage = () => {
   return (
     <div
-      className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
-     overflow-scroll z-0 overflow-x-hidden scrollbar scrollbar-track-gray-400/20
+      className="bg-[rgb(36,36,36)] text-white h-screen overflow-scroll z-0
+       overflow-x-hidden scrollbar scrollbar-track-gray-400/20
       scrollbar-thumb-[#F7AB0A]/80"
     >
       <Head>
@@ -23,27 +23,27 @@ const Home: NextPage = () => {
 
       <Header />
 
-      <section id="hero" className="snap-start">
+      <section id="hero">
         <Hero />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="about">
         <About />
       </section>
 
-      <section id="experience" className="snap-center">
+      <section id="experience">
         <WorkExperience />
       </section>
 
-      <section id="skills" className="snap-start">
+      <section id="skills">
         <Skills />
       </section>
 
-      <section id="projects" className="snap-start">
+      <section id="projects">
         <Projects />
       </section>
 
-      <section id="contact" className="snap-start">
+      <section id="contact">
         <Contact />
       </section>
 

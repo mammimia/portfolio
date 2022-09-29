@@ -15,7 +15,7 @@ function ExperienceCard({ companyImageUrl, companyName, title, startDate, endDat
   return (
     <article
       className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0
-      w-[400px] md:w-[500px] xl:w-[800px] snap-center bg-[#292929]
+      w-[300px] sm:w-[400px] md:w-[500px] xl:w-[800px] snap-center bg-[#292929]
       p-5 hover:opacity-100 opacity-40 cursor-pointer transistion-opacity
       duration-200 overflow-hidden overflow-y-scroll scrollbar-thin scrollbar-track-black scrollbar-thumb-[#F7AB0A]/80"
     >

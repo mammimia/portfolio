@@ -1,17 +1,18 @@
 import React from "react";
 import Skill from "./Skill";
 import * as paths from "../../constants/TechnologyLogoPaths";
+import PageTitle from "../Common/PageTitle";
 
 type Props = {};
 
 function Skills({}: Props) {
   return (
-    <div className="min-h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Skills</h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
+    <div className="flex relative flex-col text-center md:text-left max-w-[2000px] xl:p-10 justify-center mx-auto items-center my-10">
+      <PageTitle title="Skills" />
+      <h3 className="uppercase tracking-[3px] text-gray-500 text-sm mt-5">
         Hover over a skill for currenct proficiency
       </h3>
-      <div className="absolute top-48 grid md:grid-cols-4 xs:grid-cols-3 grid-cols-2 gap-5">
+      <div className="grid md:grid-cols-4 xs:grid-cols-3 grid-cols-2 gap-5 mt-10">
         <Skill logoPath={paths.JAVA_LOGO_PATH} coverage={90} />
         <Skill logoPath={paths.JS_LOGO_PATH} coverage={90} coverImage />
         <Skill logoPath={paths.REACT_LOGO_PATH} coverage={95} />
