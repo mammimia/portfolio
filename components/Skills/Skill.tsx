@@ -11,16 +11,13 @@ type Props = {
 function Skill({ directionLeft, logoPath, coverage, coverImage }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
-      <motion.img
+      <img
         className={`rounded-full border border-gray-500 h-24 w-24 md:w-28 md:h-28
          xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out${
            coverImage ? " object-cover" : ""
          }`}
-        initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
-        transition={{ duration: 1 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: true }}
         src={logoPath}
+        alt=""
       />
       <div
         className="absolute opacity-0 group-hover:opacity-80 transition duration-300 
