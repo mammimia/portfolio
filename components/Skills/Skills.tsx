@@ -7,7 +7,7 @@ type Props = {};
 
 function Skills({}: Props) {
   return (
-    <div className="flex relative flex-col text-center md:text-left max-w-[2000px] xl:p-10 justify-center mx-auto items-center my-10">
+    <div className="flex relative flex-col text-center md:text-left max-w-[2000px] xl:px-10 justify-center mx-auto items-center mb-20 md:mb-30">
       <PageTitle title="Skills" />
       <h3 className="uppercase tracking-[3px] text-gray-500 text-sm mt-5">
         Hover over a skill for currenct proficiency
