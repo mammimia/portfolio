@@ -24,7 +24,6 @@ function ExperienceCard({ companyImageUrl, companyName, title, startDate, endDat
         className="w-32 h-32 rounded-full xl:w-[128px] xl:h-[128px] object-cover object-center"
         src={companyImageUrl.src}
         alt=""
-        objectFit="cover"
       />
 
       <div className="px-0 md:px-10">
