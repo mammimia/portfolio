@@ -7,9 +7,14 @@ const nextConfig = {
   images: {
     domains: ["picsum.photos"],
   },
-  assetPrefix: isProd ? "https://mammimia.github.io/portfolio/" : "",
+  assetPrefix: isProd ? "https://mammimia.github.io/portfolio" : "",
   images: {
     unoptimized: true,
+  },
+  experimental: {
+    images: {
+      allowFutureImage: true,
+    },
   },
 };
 

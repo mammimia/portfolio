@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { REACT_LOGO, REACT_LOGO_PATH } from "../../constants/TechnologyLogoPaths";
+import { REACT_LOGO } from "../../constants/TechnologyLogoPaths";
 import PageTitle from "../Common/PageTitle";
 import Image from "next/image";
 

@@ -13,19 +13,19 @@ function Skills({}: Props) {
         Hover over a skill for currenct proficiency
       </h3>
       <div className="grid md:grid-cols-4 xs:grid-cols-3 grid-cols-2 gap-5 mt-10">
-        <Skill logoPath={paths.JAVA_LOGO_PATH} coverage={90} />
-        <Skill logoPath={paths.JS_LOGO_PATH} coverage={90} coverImage />
-        <Skill logoPath={paths.REACT_LOGO_PATH} coverage={95} />
-        <Skill logoPath={paths.SPRING_BOOT_LOGO_PATH} coverage={80} />
-        <Skill logoPath={paths.POSTGRESQL_LOGO_PATH} coverage={80} />
-        <Skill logoPath={paths.MONGODB_LOGO_PATH} coverage={65} />
-        <Skill logoPath={paths.TS_LOGO_PATH} coverage={65} />
-        <Skill logoPath={paths.NEXTJS_LOGO_PATH} coverage={50} coverImage />
-        <Skill logoPath={paths.TAILWIND_LOGO_PATH} coverage={60} />
-        <Skill logoPath={paths.SCSS_LOGO_PATH} coverage={80} coverImage />
-        <Skill logoPath={paths.RABBITMQ_LOGO_PATH} coverage={65} />
-        <Skill logoPath={paths.FIREBASE_LOGO_PATH} coverage={65} />
-        <Skill logoPath={paths.JASPER_LOGO_PATH} coverage={75} />
+        <Skill logo={paths.JAVA_LOGO} coverage={90} />
+        <Skill logo={paths.JS_LOGO} coverage={90} coverImage />
+        <Skill logo={paths.REACT_LOGO} coverage={95} />
+        <Skill logo={paths.SPRING_BOOT_LOGO} coverage={80} />
+        <Skill logo={paths.POSTGRESQL_LOGO} coverage={80} />
+        <Skill logo={paths.MONGODB_LOGO} coverage={65} />
+        <Skill logo={paths.TS_LOGO} coverage={65} />
+        <Skill logo={paths.NEXTJS_LOGO} coverage={50} coverImage />
+        <Skill logo={paths.TAILWIND_LOGO} coverage={60} />
+        <Skill logo={paths.SCSS_LOGO} coverage={80} coverImage />
+        <Skill logo={paths.RABBITMQ_LOGO} coverage={65} />
+        <Skill logo={paths.FIREBASE_LOGO} coverage={65} />
+        <Skill logo={paths.JASPER_LOGO} coverage={75} />
       </div>
     </div>
   );

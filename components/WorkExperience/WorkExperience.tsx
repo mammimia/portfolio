@@ -29,7 +29,7 @@ function WorkExperience({}: Props) {
             startDate={experience.startDate}
             endDate={experience.endDate}
             details={experience.details}
-            skillLogoPaths={experience.skillLogoPaths}
+            skillLogos={experience.skillLogos}
           />
         ))}
       </div>

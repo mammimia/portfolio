@@ -1,8 +1,10 @@
-import * as paths from "../../constants/TechnologyLogoPaths";
+import * as logos from "../../constants/TechnologyLogoPaths";
+import taiLogo from "../../public/assets/images/tai-logo.png";
+import d14Logo from "../../public/assets/images/d14-logo.png";
 
 export const workExperiences = [
   {
-    companyImageUrl: "/assets/images/tai-logo.png",
+    companyImageUrl: taiLogo,
     companyName: "Turkish Aerospace Industries",
     title: "Candidate Software Developer",
     startDate: "Nov 2018",
@@ -12,10 +14,10 @@ export const workExperiences = [
       "I had the opportunity to work on applications using Spring Boot, MongoDB and ELK stack.",
       "I prepared and published a document about the ELK stack on Github.",
     ],
-    skillLogoPaths: [paths.SPRING_BOOT_LOGO_PATH, paths.MONGODB_LOGO_PATH], // need ELK Stack logo here
+    skillLogos: [logos.SPRING_BOOT_LOGO, logos.MONGODB_LOGO], // need ELK Stack logo here
   },
   {
-    companyImageUrl: "/assets/images/tai-logo.png",
+    companyImageUrl: taiLogo,
     companyName: "Turkish Aerospace Industries",
     title: "Software Developer",
     startDate: "Jul 2019",
@@ -25,15 +27,10 @@ export const workExperiences = [
       "I took part in the transition of existing monolith backend projects to microservice architecture with Spring Boot.",
       "I also had the chance to work on the migration of existing Java Swing frontend projects to ReactJS application.",
     ],
-    skillLogoPaths: [
-      paths.REACT_LOGO_PATH,
-      paths.SPRING_BOOT_LOGO_PATH,
-      paths.MONGODB_LOGO_PATH,
-      paths.RABBITMQ_LOGO_PATH,
-    ],
+    skillLogos: [logos.REACT_LOGO, logos.SPRING_BOOT_LOGO, logos.MONGODB_LOGO, logos.RABBITMQ_LOGO],
   },
   {
-    companyImageUrl: "/assets/images/d14-logo.png",
+    companyImageUrl: d14Logo,
     companyName: "D14.ai",
     title: "Full Stack Developer",
     startDate: "Apr 2020",
@@ -43,11 +40,6 @@ export const workExperiences = [
       "I also had a chance to work on entire software development lifecycle of an generic AI-powered smart clinic management system which is using by 4 clients now.",
       "At the same time, I developed the reporting infrastructure that enables the creation of health-related and financial reports of these projects with JasperReports.",
     ],
-    skillLogoPaths: [
-      paths.REACT_LOGO_PATH,
-      paths.SPRING_BOOT_LOGO_PATH,
-      paths.POSTGRESQL_LOGO_PATH,
-      paths.SCSS_LOGO_PATH,
-    ],
+    skillLogos: [logos.REACT_LOGO, logos.SPRING_BOOT_LOGO, logos.POSTGRESQL_LOGO, logos.SCSS_LOGO],
   },
 ].reverse();
