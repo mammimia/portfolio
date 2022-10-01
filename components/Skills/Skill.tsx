@@ -12,14 +12,14 @@ type Props = {
 function Skill({ directionLeft, logo, coverage, coverImage }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
-      <div
+      <img
         className={`rounded-full border border-gray-500 h-24 w-24 md:w-28 md:h-28
          xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out${
            coverImage ? " object-cover" : ""
          }`}
-      >
-        <Image src={logo} alt="" layout="fill" objectFit="cover" />
-      </div>
+        src={logo.src}
+        alt=""
+      />
       <div
         className="absolute opacity-0 group-hover:opacity-80 transition duration-300 
       ease-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 
