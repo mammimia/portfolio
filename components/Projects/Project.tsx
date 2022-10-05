@@ -7,6 +7,7 @@ import { COMPILER_INDEXES } from "next/dist/shared/lib/constants";
 
 type Props = {
   imgUrl: string;
+  imgClassName: string;
   projectName: string;
   projectIndex: number;
   totalProjectNumber: number;
