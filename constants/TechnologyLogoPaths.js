@@ -11,6 +11,7 @@ import mongodbLogo from "../public/assets/images/mongodb-logo.png";
 import rabbitmqLogo from "../public/assets/images/rabbitmq-logo.png";
 import scssLogo from "../public/assets/images/scss-logo.png";
 import jasperLogo from "../public/assets/images/jasper-logo.png";
+import materialUiLogo from "../public/assets/images/jasper-logo.png"; //TODO: Don't forget to change import
 
 export const REACT_LOGO = reactLogo;
 export const TS_LOGO = tsLogo;
@@ -25,3 +26,4 @@ export const MONGODB_LOGO = mongodbLogo;
 export const RABBITMQ_LOGO = rabbitmqLogo;
 export const SCSS_LOGO = scssLogo;
 export const JASPER_LOGO = jasperLogo;
+export const MATERIAL_UI_LOGO = materialUiLogo;

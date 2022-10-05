@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import PageTitle from "../Common/PageTitle";
+import widerPic from "../../public/assets/pics/MuhammedAliAYDIN-2.jpg";
 
 type Props = {};
 
@@ -23,7 +24,7 @@ function About({}: Props) {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1.2 }}
-          src="https://pps.whatsapp.net/v/t61.24694-24/158079383_268114754972725_8449800354676983179_n.jpg?ccb=11-4&oh=01_AVx4IhqCrpdExqQSDc4xnMmEALzMPva93aOF3zpoDMYXaA&oe=633973BA"
+          src={widerPic.src}
         />
         <div className="self-center space-y-2 xs:space-y-10 px-0 md:px-10 mt-10 md:mt-0">
           <h4 className="text-2xl sm:text-4xl font-semibold">
