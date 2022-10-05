@@ -40,7 +40,7 @@ function Project({
         </h4>
 
         <div className="flex items-center space-x-2 justify-center">
-          {skillLogos?.map((logo, index) => {
+          {skillLogos?.map((logo: any, index: number) => {
             return (
               <img
                 key={projectName + "-skill-" + index}
