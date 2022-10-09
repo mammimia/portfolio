@@ -2,6 +2,8 @@ import * as logos from "../../constants/TechnologyLogoPaths";
 import d14AiWebsiteLogo from "../../public/assets/images/d14-ai-website-logo.svg";
 import dhealthImg from "../../public/assets/images/dhealth-img.png";
 import shiftitImg from "../../public/assets/images/shiftit-img.png";
+import mideumLogo from "../../public/assets/images/mideum-logo.svg";
+import portfolioImg from "../../public/assets/images/portfolio-img.png";
 
 export const projects = [
   {
@@ -34,6 +36,7 @@ export const projects = [
   },
   {
     imgUrl: dhealthImg.src,
+    imgClassName: "bg-white p-10 h-[150px] w-[225px]",
     projectName: "Dhealth",
     description:
       "A socially smart clinic management system project which is developed as a generic product. This project is currently using by 4 different clinics in Dubai. " +
@@ -44,28 +47,40 @@ export const projects = [
   },
   {
     imgUrl: shiftitImg.src,
+    imgClassName: "bg-white p-10 h-[150px] w-[225px]",
     projectName: "Shiftit",
-    description: "",
+    description:
+      "Shiftit is the smart platform for modern deskless workforce management and complex scheduling." +
+      " Companies can create optimized schedules and rotations and assign tasks with one click.",
     moreInformationLink: "https://www.d14.ai/shiftit",
+    skillLogos: [logos.REACT_LOGO, logos.SPRING_BOOT_LOGO, logos.POSTGRESQL_LOGO],
+  },
+  {
+    imgUrl: mideumLogo.src,
+    imgClassName: "bg-white p-10 h-[150px]",
+    projectName: "MIDEUM",
+    description:
+      "MIDEUM is a cloud-based and data-driven regulatory reporting platform that puts " +
+      "user in control by focusing on simplicity, explainability and reliability. I took part " +
+      "in the development of the frontend of this project as a freelance software developer.",
+    moreInformationLink: "https://changegap.co/regtech/",
+    skillLogos: [logos.REACT_LOGO, logos.SCSS_LOGO],
   },
   {
     imgUrl: "https://images.firstpost.com/wp-content/uploads/2021/08/twitter-redesign1280.jpg",
     projectName: "Twitter Clone",
-    description: "",
+    description:
+      "In this project, I tried to make a simple clone version of twitter in order to improve myself. You can access the source code and demo from the links below.",
+    liveLink: "https://mammimia.github.io/twitter-clone",
+    sourceCodeLink: "https://github.com/mammimia/twitter-clone",
+    skillLogos: [logos.REACT_LOGO, logos.FIREBASE_LOGO, logos.MATERIAL_UI_LOGO],
   },
   {
-    imgUrl: "https://images.firstpost.com/wp-content/uploads/2021/08/twitter-redesign1280.jpg",
-    projectName: "Mideum",
-    description: "",
-  },
-  {
-    imgUrl: "https://images.firstpost.com/wp-content/uploads/2021/08/twitter-redesign1280.jpg",
+    imgUrl: portfolioImg.src,
     projectName: "Portfolio Website",
-    description: "",
-  },
-  {
-    imgUrl: "https://images.firstpost.com/wp-content/uploads/2021/08/twitter-redesign1280.jpg",
-    projectName: "Burger Builder",
-    description: "",
+    description:
+      "The site you are currently on is also one of the projects I have developed. You can access the open source code from the link below.",
+    sourceCodeLink: "https://github.com/mammimia/portfolio",
+    skillLogos: [logos.NEXTJS_LOGO, logos.TAILWIND_LOGO],
   },
 ];

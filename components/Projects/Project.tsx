@@ -15,6 +15,7 @@ type Props = {
   skillLogos: any;
   moreInformationLink?: string;
   liveLink?: string;
+  sourceCodeLink?: string;
 };
 
 function Project({
@@ -27,6 +28,7 @@ function Project({
   skillLogos,
   moreInformationLink,
   liveLink,
+  sourceCodeLink,
 }: Props) {
   console.log(moreInformationLink);
   return (
@@ -56,7 +58,7 @@ function Project({
 
         <p className="text-lg text-center md:text-left">{description}</p>
 
-        <div className="flex justify-center mb-5">
+        <div className="flex justify-center mb-5 space-x-5">
           {moreInformationLink && (
             <a
               href={moreInformationLink}
@@ -77,6 +79,17 @@ function Project({
               rel="noreferrer"
             >
               Live Link
+            </a>
+          )}
+          {sourceCodeLink && (
+            <a
+              href={sourceCodeLink}
+              target="_blank"
+              className="bg-[#F7AB0A] opacity-80 text-gray-700 hover:text-gray-500
+           hover:opacity-100 py-2 px-5 rounded-md font-bold text-sm cursor-pointer"
+              rel="noreferrer"
+            >
+              Source Code
             </a>
           )}
         </div>
