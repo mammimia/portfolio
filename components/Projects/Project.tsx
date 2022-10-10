@@ -45,7 +45,7 @@ function Project({
             return (
               <img
                 key={projectName + "-skill-" + index}
-                className="h-8 w-8 lg:h-10 lg:w-10"
+                className="h-8 w-8 lg:h-10 lg:w-10 rounded-full"
                 height={35}
                 width={35}
                 src={logo.src}
@@ -57,7 +57,7 @@ function Project({
 
         <p className="text-sm sm:text-md md:text-xl text-center md:text-left">{description}</p>
 
-        <div className="flex justify-center mb-5 space-y-2 sm:space-y-0 sm:space-x-5 flex-col sm:flex-row">
+        <div className="flex justify-center space-y-2 sm:space-y-0 sm:space-x-5 flex-col sm:flex-row mb-5">
           {moreInformationLink && (
             <a
               href={moreInformationLink}

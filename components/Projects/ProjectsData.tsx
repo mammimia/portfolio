@@ -78,6 +78,7 @@ export const projects = [
   {
     imgUrl: portfolioImg.src,
     projectName: "Portfolio Website",
+    imgClassName: "bg-white p-10 h-[150px] w-[150px]",
     description:
       "The site you are currently on is also one of the projects I have developed. You can access the open source code from the link below.",
     sourceCodeLink: "https://github.com/mammimia/portfolio",

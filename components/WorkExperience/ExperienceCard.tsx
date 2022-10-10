@@ -32,9 +32,12 @@ function ExperienceCard({ companyImageUrl, companyName, title, startDate, endDat
         <div className="flex space-x-1 sm:space-x-2 my-2">
           {skillLogos?.map((skillLogo, index) => {
             return (
-              <div className="h-8 w-8 sm:h-10 sm:w-10 rounded-full" key={index + "skill" + startDate}>
-                <Image alt="" src={skillLogo} />
-              </div>
+              <img
+                key={index + "skill" + startDate}
+                className="h-8 w-8 sm:h-10 sm:w-10 rounded-full"
+                src={skillLogo.src}
+                alt=""
+              />
             );
           })}
         </div>
