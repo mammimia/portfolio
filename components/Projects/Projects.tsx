@@ -12,7 +12,7 @@ function Projects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen relative flex overflow-hidden flex-col text-left
+      className="relative flex overflow-hidden flex-col text-left
       max-w-full mx-auto items-center z-0"
     >
       <PageTitle title="Projects" />

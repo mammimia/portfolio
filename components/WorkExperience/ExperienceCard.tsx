@@ -27,21 +27,21 @@ function ExperienceCard({ companyImageUrl, companyName, title, startDate, endDat
       />
 
       <div className="px-0 md:px-10">
-        <h4 className="text-3xl font-light">{companyName}</h4>
-        <p className="font-bold text-2xl mt-1">{title}</p>
-        <div className="flex space-x-2 my-2">
+        <h4 className="text-xl sm:text-3xl font-light">{companyName}</h4>
+        <p className="font-bold text-lg sm:text-2xl mt-1">{title}</p>
+        <div className="flex space-x-1 sm:space-x-2 my-2">
           {skillLogos?.map((skillLogo, index) => {
             return (
-              <div className="h-10 w-10 rounded-full" key={index + "skill" + startDate}>
+              <div className="h-8 w-8 sm:h-10 sm:w-10 rounded-full" key={index + "skill" + startDate}>
                 <Image alt="" src={skillLogo} />
               </div>
             );
           })}
         </div>
-        <p className="uppercase py-5 text-gray-300">
+        <p className="text-sm sm:text-base uppercase py-5 text-gray-300">
           Started work {startDate} - {endDate?.length != 0 ? "Ended " + endDate : "Current"}
         </p>
-        <ul className="list-disc space-y-4 ml-5 pr-10 text-md h-48">
+        <ul className="list-disc space-y-4 ml-5 pr-10 text-sm sm:text-md h-48">
           {details.map((d) => (
             <li key={d}>{d}</li>
           ))}

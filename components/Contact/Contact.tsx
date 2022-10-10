@@ -19,7 +19,7 @@ function Contact({}: Props) {
   };
 
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left max-w-xl px-10 justify-evenly mx-auto items-center md:mt-0 mt-20">
+    <div className="h-screen flex relative flex-col text-center md:text-left max-w-xl px-10 justify-evenly mx-auto items-center md:mt-0">
       <PageTitle title="Contact" />
 
       <div className="flex flex-col space-y-10">
