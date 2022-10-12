@@ -4,6 +4,7 @@ import dhealthImg from "../../public/assets/images/dhealth-img.png";
 import shiftitImg from "../../public/assets/images/shiftit-img.png";
 import mideumLogo from "../../public/assets/images/mideum-logo.svg";
 import portfolioImg from "../../public/assets/images/portfolio-img.png";
+import minecraftLogo from "../../public/assets/images/minecraft-logo.png";
 
 export const projects = [
   {
@@ -74,6 +75,17 @@ export const projects = [
     liveLink: "https://mammimia.github.io/twitter-clone",
     sourceCodeLink: "https://github.com/mammimia/twitter-clone",
     skillLogos: [logos.REACT_LOGO, logos.FIREBASE_LOGO, logos.MATERIAL_UI_LOGO],
+  },
+  {
+    imgUrl: minecraftLogo.src,
+    projectName: "Minecraft Clone",
+    imgClassName: "bg-white px-5",
+    description:
+      "In this project, I tried to make a simple clone version of minecraft in order to improve myself. I tried developing a game using React and Three.js. " +
+      "You can find the necessary keys to play the game on the github page.You can access the source code and demo from the links below.",
+    liveLink: "https://mammimia.github.io/minecraft-clone",
+    sourceCodeLink: "https://github.com/mammimia/minecraft-clone",
+    skillLogos: [logos.REACT_LOGO],
   },
   {
     imgUrl: portfolioImg.src,
