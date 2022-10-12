@@ -18,6 +18,7 @@ const Home: NextPage = () => {
     >
       <Head>
         <title>Mammimia Portfolio</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
