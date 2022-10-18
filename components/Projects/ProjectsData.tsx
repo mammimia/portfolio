@@ -5,6 +5,8 @@ import shiftitImg from "../../public/assets/images/shiftit-img.png";
 import mideumLogo from "../../public/assets/images/mideum-logo.svg";
 import portfolioImg from "../../public/assets/images/portfolio-img.png";
 import minecraftLogo from "../../public/assets/images/minecraft-logo.png";
+import tattooWebsiteLogo from "../../public/assets/images/tattoo-website-logo.svg";
+import traficoWebsiteLogo from "../../public/assets/images/trafico-website-logo.svg";
 
 export const projects = [
   {
@@ -86,6 +88,26 @@ export const projects = [
     liveLink: "https://mammimia.github.io/minecraft-clone",
     sourceCodeLink: "https://github.com/mammimia/minecraft-clone",
     skillLogos: [logos.REACT_LOGO],
+  },
+  {
+    imgUrl: tattooWebsiteLogo.src,
+    projectName: "Tattoo Studio Website",
+    imgClassName: "bg-white p-5 h-[150px]",
+    description:
+      "In this project, I tried to make a tattoo studio website in order to improve myself. You can access the source code and demo from the links below.",
+    liveLink: "https://mammimia.github.io/tattoo-studio-website",
+    sourceCodeLink: "https://github.com/mammimia/tattoo-studio-website",
+    skillLogos: [logos.REACT_LOGO, logos.TAILWIND_LOGO, logos.SCSS_LOGO],
+  },
+  {
+    imgUrl: traficoWebsiteLogo.src,
+    projectName: "Trafico Website",
+    imgClassName: "bg-white p-5 h-[150px]",
+    description:
+      "In this project, I tried to make the trafico website in order to improve myself. You can access the source code and demo from the links below.",
+    liveLink: "https://mammimia.github.io/trafico-website/",
+    sourceCodeLink: "https://github.com/mammimia/trafico-website",
+    skillLogos: [logos.NEXTJS_LOGO, logos.TAILWIND_LOGO],
   },
   {
     imgUrl: portfolioImg.src,
